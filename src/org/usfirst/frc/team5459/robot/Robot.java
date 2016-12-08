@@ -17,6 +17,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 // hi
+
 /**
  * The VM is configured to automatically run this class, and to call the
  * functions corresponding to each mode, as described in the IterativeRobot
@@ -86,6 +87,7 @@ public class Robot extends IterativeRobot {
     	 if (gyroAngle >= 360) {
     		 gyroAngle = gyroAngle - 360;
     	 }
+    	 // Owens comment
 	      	xDistance = distance(forwardSensor);
 	      	yDistance = distance(sideSensor);//gets current position 
 	      	//if (tickCount1 > 70 && xDistance > 1430 && tickCount1 < 100) {
