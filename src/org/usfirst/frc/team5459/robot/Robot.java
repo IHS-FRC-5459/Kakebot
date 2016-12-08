@@ -86,6 +86,7 @@ public class Robot extends IterativeRobot {
     	 if (gyroAngle >= 360) {
     		 gyroAngle = gyroAngle - 360;
     	 }
+    	 // Owens comment
 	      	xDistance = distance(forwardSensor);
 	      	yDistance = distance(sideSensor);//gets current position 
 	      	//if (tickCount1 > 70 && xDistance > 1430 && tickCount1 < 100) {
